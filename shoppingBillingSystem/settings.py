@@ -128,13 +128,15 @@ STATIC_ROOT= os.path.join(BASE_DIR,"static")
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+postgres://u89c0u5nfs7qr5:p8f322a321ce3a6a0336d51999c5e822b8337338553327bce41f97bcbd56009ae@c7gljno857ucsl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d82ua6c5h1sdh9
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'on_counter_billing_system',
-        'USER': 'myuser',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',  # or another host if your db is not local
+        'NAME': 'd82ua6c5h1sdh9',
+        'USER': 'u89c0u5nfs7qr5',
+        'PASSWORD': 'p8f322a321ce3a6a0336d51999c5e822b8337338553327bce41f97bcbd56009ae',
+        'HOST': 'c7gljno857ucsl.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',  # or another host if your db is not local
         'PORT': '5432',  # default PostgreSQL port
     }
 }
