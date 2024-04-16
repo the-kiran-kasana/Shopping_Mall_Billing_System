@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-gylek4&$v=wsu$673nd8-rxe3-o63iba^b32%d&vivknrgm5*f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['on-counter-billing-system-91ef94d86d36.herokuapp.com']
 
 
 # Application definition
